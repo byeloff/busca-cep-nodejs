@@ -1,0 +1,18 @@
+{
+  "name": "busca-cep",
+  "version": "1.0.0",
+  "description": "API para consulta de CEP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node loader.js"
+  },
+  "author": "Gabriel Sousa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "csvtojson": "^1.1.9",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.11",
+    "node-restful": "^0.2.6"
+  }
+}
